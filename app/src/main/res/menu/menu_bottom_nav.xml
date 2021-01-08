@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/item_selector"
+        android:title="首页"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/item_selector"
+        android:title="消息"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/item_selector"
+        android:title="发现"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/fourthFragment"
+        android:icon="@drawable/item_selector"
+        android:title="我的"
+        app:showAsAction="always" />
+
+</menu>
